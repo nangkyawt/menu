@@ -1,0 +1,41 @@
+.background{
+    background-color: rgb(225, 255, 114);
+}
+.section{
+    padding: 70px 17%;
+}
+.heading{
+    font-size: 90px;
+    font-family: 'Poppins-Light.ttf';
+    color: black;
+    /* font-family: 'src/assets/fonts/WorkSans-Bold.ttf'; */
+}
+.home{
+    color: black;
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    
+    /* align-items: center; */
+
+}
+.home-img{
+    max-width:100% ;
+    width: 600px;
+    height: auto;
+}
+.btn{
+    color: white;
+    background-color: rgb(236, 13, 24);
+}
+.btn:hover{
+    background-color: rgb(236, 13, 24);
+    /* transform: scale(1.2) translateY(10px); */
+    /* transition: .4s; */
+}
+/* .heading{
+    color: aqua;
+    background-color: red;
+} */
