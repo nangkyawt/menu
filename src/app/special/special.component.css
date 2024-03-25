@@ -1,0 +1,54 @@
+.background {
+    background-color: #EEE4B1;
+}
+  
+  .home-content {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .home-text {
+    text-align: center;
+    padding-right: 20px; /* Adjust spacing between text and image */
+  }
+  
+  .special img {
+    max-width: 20%;
+    height: 40%;
+    border-radius: 100%;
+    border: 3px solid#65451F; 
+    animation: rotateBorder 4s linear infinite; /* Apply the animation */
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    background-color:#65451F;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  h1{
+    color: #65451F;
+  }
+h5{
+  color:rgb(242, 244, 243);
+  text-align: center;
+  align-items: center;
+}
+  p{
+    border: 2px solid black;
+    outline:#65451F 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+  }
+

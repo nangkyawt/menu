@@ -2,5 +2,22 @@
     font-size:30px
 }
 .background{
-    background-color: rgb(225, 255, 114);
+    background-color:  #65451F;
 }
+
+h1{
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+h1:hover {
+  color: #fcf9f6;
+  transform: translateY(-5px);
+
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
