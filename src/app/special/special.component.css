@@ -22,6 +22,7 @@
   }
 
   .card {
+   
     transition: transform 0.3s ease;
   }
 
@@ -32,15 +33,20 @@
   .card-body {
     background-color:#65451F;
     display: flex;
+    
     justify-content: center; 
     align-items: center;
     transition: color 0.3s ease, transform 0.3s ease;
   }
   h1{
+    color:#65451F;
+  }
+
+  h2{
     color: #65451F;
   }
 h5{
-  color:rgb(242, 244, 243);
+  color:white;
   text-align: center;
   align-items: center;
 }
@@ -52,3 +58,6 @@ h5{
     text-align: center;
   }
 
+.a{
+  color:#C38154
+}

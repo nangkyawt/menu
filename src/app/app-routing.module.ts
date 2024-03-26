@@ -18,12 +18,6 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductsComponent,
-    // children: [
-    //   {
-    //     path: 'details',
-    //     component: DetailsComponent,
-    //   },
-    // ],
   },
   { path: 'products/:productid', component: DetailsComponent },
   {
